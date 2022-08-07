@@ -1,6 +1,9 @@
 /*---------------------------------------------------------------------
     File Name: slick.css
 ---------------------------------------------------------------------*/
+#myBanner123{
+    background-color: red !important;
+}
 
 .slick-slider {
     position: relative;
