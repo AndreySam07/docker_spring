@@ -7,5 +7,3 @@ RUN apt-get update &&  \
     apt-get clean
 
 RUN git clone https://github.com/isicju/docker_spring.git && cd docker_spring && git checkout main && mvn clean install && cd target && java -jar -Dserver.port=8083 demo-0.0.1-SNAPSHOT.jar
-
-EXPOSE 8083
